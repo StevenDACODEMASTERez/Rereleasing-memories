@@ -1,4 +1,11 @@
 PImage dough;
 size(800, 800);
-image(loadImage("dough.png"), 100, 100, 100, 100);
-line(200, 200, 400, 400);
+stroke(#D88416);
+line(10, 200, 400, 200);
+line(10, 200, 10, 400);
+line(400, 200, 400, 400);
+fill(#D88416);
+ellipse(205, 295, 390, 180);
+image(loadImage("dough.png"), 100, 160, 100, 160);
+image(loadImage("dough.png"), 170, 166, 133, 165);
+image(loadImage("Oven.png"), 450, 50, 315, 150);
