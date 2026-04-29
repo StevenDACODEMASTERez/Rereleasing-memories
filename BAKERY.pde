@@ -1,4 +1,7 @@
 size(800, 800);
+color something = #f0d7a7;
+fill(something);
+rect(0, 0, width, height/2);
 stroke(#D88416);
 line(10, 200, 400, 200);
 line(10, 200, 10, 400);
@@ -9,6 +12,7 @@ image(loadImage("Baker.png"), 160, 90, 143, 150);
 image(loadImage("dough.png"), 100, 160, 100, 160);
 image(loadImage("dough.png"), 170, 166, 133, 165);
 image(loadImage("Oven.png"), 450, 50, 315, 150);
+image(loadImage("artisanal DOOR.png"), 0, 535, 150, 200);
 line(600, 600, 700, 600);
 line(600, 600, 600, 700);
 line(700, 400, 700, 700);
@@ -17,8 +21,15 @@ width = 3;
 line(400, 550, 400, 700);
 line(400, 700, 360, 750);
 line(400, 700, 450, 750);
+
 rect(490, 220, 200, 100);
 line(589, 322, 589, 399);
-fill(0);
 textSize(16);
-text("welcome to big back bakery", 500, 249);
+fill(0);
+text("welcome to MAMACITA bakery", 500, 249);
+//spoon
+fill(#E8E8E8);
+stroke(#E8E8E8); 
+strokeWeight(11);
+line(80, 250, 80, 350);
+ellipse(80, 250, 50, 60);
